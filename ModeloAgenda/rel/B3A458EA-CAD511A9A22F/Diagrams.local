@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="98A2335B-882B-F199-304E-DA13B8D99EE9" name="Completo" visible="false"/>
+   <object objectType="sub_view" objectID="C9B3F2F7-A33B-D6A4-6952-E8ED944E23E5" name="Agenda" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

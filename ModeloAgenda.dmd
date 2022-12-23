@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloAgenda" id="B0B45648-0E0D-3CFB-4D4E-C3D86A0A6EA1" version="3.5">
+<createdBy>DEV</createdBy>
+<createdTime>2022-12-23 14:56:54 UTC</createdTime>
+<ownerDesignName>agenda</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B0B45648-0E0D-3CFB-4D4E-C3D86A0A6EA1</designId>
+</OSDM_Design>

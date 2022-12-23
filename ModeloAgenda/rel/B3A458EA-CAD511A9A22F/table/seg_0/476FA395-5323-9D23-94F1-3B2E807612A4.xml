@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="476FA395-5323-9D23-94F1-3B2E807612A4" name="CONTATO">
+<createdBy>DEV</createdBy>
+<createdTime>2022-12-23 14:59:26 UTC</createdTime>
+<ownerDesignName>ModeloAgenda</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CONTATO" id="78641C69-4A78-4349-5FC0-A665E607B811">
+<createdBy>DEV</createdBy>
+<createdTime>2022-12-23 15:00:26 UTC</createdTime>
+<ownerDesignName>ModeloAgenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="D1AD0032-50FA-131A-7568-18D151D7BC81">
+<createdBy>DEV</createdBy>
+<createdTime>2022-12-23 15:00:26 UTC</createdTime>
+<ownerDesignName>ModeloAgenda</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE" id="F4AF3068-4AB4-80A8-BE1A-130E0F239297">
+<createdBy>DEV</createdBy>
+<createdTime>2022-12-23 15:00:26 UTC</createdTime>
+<ownerDesignName>ModeloAgenda</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFA24633-57AD-6BC0-C0FB-C6C6FB1BEBDC" name="CONTATO_PK">
+<createdBy>DEV</createdBy>
+<createdTime>2022-12-23 15:03:09 UTC</createdTime>
+<ownerDesignName>ModeloAgenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78641C69-4A78-4349-5FC0-A665E607B811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
